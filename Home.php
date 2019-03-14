@@ -86,6 +86,8 @@ class Home extends Main {
 		$this->loadView('main');
 	}
 
+	$old_error_reporting = error_reporting(0); 
+
 }
 
 ?>
